@@ -1,6 +1,17 @@
 export const projects = [
+
   {
     id: 1,
+    title: 'Multi-Tenant Conversational AI SaaS Platform',
+    description: 'Enterprise-grade SaaS platform enabling organizations to deploy isolated AI chatbots with secure tenant isolation, custom knowledge bases, and analytics dashboards using FastAPI and LLM integration.',
+    category: 'Web & AI',
+    categoryColor: 'bg-blue-500/20 text-blue-400',
+    tags: ['Python', 'FastAPI', 'LangChain', 'MariaDB', 'Docker'],
+    icon: 'M17 8h2a2 2 0 012 2v7a2 2 0 01-2 2h-4m-6 0H5a2 2 0 01-2-2v-7a2 2 0 012-2h2m10 0V6a2 2 0 00-2-2H9a2 2 0 00-2 2v2m10 0H7',
+    gradientClass: 'from-blue-500 to-indigo-600'
+  },
+  {
+    id: 2,
     title: 'Liver Tumor Segmentation using TransUNet',
     description: 'Advanced medical image segmentation system using hybrid CNN + Transformer architecture for accurate liver tumor detection from CT scans',
     category: 'AI/ML',
@@ -8,16 +19,6 @@ export const projects = [
     tags: ['Python', 'TensorFlow', 'Computer Vision'],
     icon: 'M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z',
     gradientClass: 'from-cyan-500 to-blue-600'
-  },
-  {
-    id: 2,
-    title: 'Journal Application',
-    description: 'Scalable journal application with RESTful APIs and Docker containerization for seamless deployment across multiple environments',
-    category: 'Full-Stack',
-    categoryColor: 'bg-blue-500/20 text-blue-400',
-    tags: ['Java', 'Spring Boot', 'MongoDB', 'Docker'],
-    icon: 'M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10',
-    gradientClass: 'from-blue-500 to-purple-600'
   },
   {
     id: 3,

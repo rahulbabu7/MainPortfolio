@@ -13,7 +13,7 @@
       <div class="grid md:grid-cols-2 gap-6 mb-12">
         <!-- Email Card -->
         <a
-          href="mailto:rahulbabu2002@protonmail.com"
+          href="mailto:rahulbabukadaplackal@gmail.com"
           ref="emailCard"
           class="gradient-border rounded-2xl p-6 hover-lift scroll-reveal group"
           :class="{ visible: isEmailVisible }"
@@ -26,7 +26,7 @@
             </div>
             <div>
               <h3 class="text-lg font-bold mb-1">Email</h3>
-              <p class="text-slate-400 text-sm">rahulbabu2002@protonmail.com</p>
+              <p class="text-slate-400 text-sm">rahulbabukadaplackal@gmail.com</p>
             </div>
           </div>
         </a>
@@ -54,6 +54,7 @@
       </div>
 
       <!-- Contact Form -->
+      <!--
       <div
         ref="formCard"
         class="gradient-border rounded-2xl p-8 scroll-reveal"
@@ -106,7 +107,7 @@
             Send Message
           </button>
         </form>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>

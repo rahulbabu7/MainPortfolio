@@ -19,11 +19,13 @@
         />
       </div>
 
-      <div class="text-center mt-12">
-        <button class="px-8 py-4 border-2 border-slate-700 rounded-xl font-semibold hover:bg-slate-800 hover:border-slate-600 transition-all">
-          View All Projects
-        </button>
-      </div>
+      <!--
+<div class="text-center mt-12">
+  <button class="px-8 py-4 border-2 border-slate-700 rounded-xl font-semibold hover:bg-slate-800 hover:border-slate-600 transition-all">
+    View All Projects
+  </button>
+</div>
+-->
     </div>
   </section>
 </template>
